@@ -41,7 +41,7 @@ function App() {
   }, [coords]);
 
   return (
-    <div>
+    <div className='app'>
       <WeatherCard 
         weather = {weather}
         temp =  {temp}
