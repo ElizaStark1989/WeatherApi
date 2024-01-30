@@ -1,7 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+/*----- Reset-----*/
+*,
+* ::before,
+* ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'kanit', sans-serif;
+}
+
 body {
   background-color: black;
-  color: white;
+  color: hwb(246 39% 21%);
 }
 img {
   max-width: 100%;
+  max-height: 100%;
+  display: inline;
+  object-fit: contain;
+}
+button {
+  display: inline;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+.app{
+  background-image: url(https://cdn.dribbble.com/users/93925/screenshots/14245026/media/22e55f25c832ff423c88d93cda1edc0c.gif);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
