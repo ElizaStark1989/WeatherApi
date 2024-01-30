@@ -28,6 +28,7 @@ button {
   display: inline;
   border: none;
   font-family: inherit;
+  cursor: pointer;
 }
 ul {
   list-style: none;
